@@ -1,0 +1,9 @@
+SQL> desc productlist1;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ PROD_ID                                   NOT NULL NUMBER(10)
+ PROD_NAME                                          VARCHAR2(10)
+ PROD_PRICE                                         NUMBER(10,2)
+ PROD_QTY                                           NUMBER(10,2)
+ PROD_MFD                                           DATE
+ PROD_EXP                                           DATE
